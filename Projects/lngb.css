@@ -1,0 +1,88 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  width: 100%;
+  display: block;
+  background-color: #2a3654;
+  text-align: center;
+  color: white;
+  height: auto;
+  justify-content: center;
+}
+
+.content {
+  padding: 20px;
+  text-align: justify;
+}
+.top {
+  display: flex;
+}
+.middle {
+  display: flex;
+  margin-top: 20px;
+}
+.middle img {
+  width: 100%;
+  height: auto;
+}
+.middle .text {
+  width: 100%;
+  margin-left: 20px;
+}
+.middle .image {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2%;
+}
+.bottom {
+  padding: 2% 2% 0% 2%;
+}
+.discussion {
+  padding: 2% 2% 0% 2%;
+}
+
+.last .row1 {
+  display: flex;
+  margin-top: 20px;
+}
+.last .row2 {
+  display: flex;
+  margin-top: 10px;
+}
+.last .row3 {
+  display: flex;
+  margin-top: 10px;
+}
+.last .image {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1%;
+}
+.last img {
+  width: 100%;
+  height: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  .middle {
+    display: block !important;
+  }
+  .middle .text {
+    display: contents;
+  }
+  .last .row1 {
+    display: block !important;
+  }
+  .last .row2 {
+    display: block !important;
+  }
+  .last .row3 {
+    display: block !important;
+  }
+  .header {
+    font-size: 8px !important;
+  }
+}

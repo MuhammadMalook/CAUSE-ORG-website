@@ -1,0 +1,19 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  width: 100%;
+  display: block;
+  background-color: #2a3654;
+  text-align: center;
+  color: white;
+  height: auto;
+  justify-content: center;
+}
+.header h2 {
+  color: green;
+}
+.content {
+  padding: 20px;
+  text-align: justify;
+}
