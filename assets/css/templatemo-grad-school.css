@@ -995,10 +995,10 @@ section.projects .owl-carousel button.active {
 /* sponsors*/
 
 section.sponsors {
-  background-image: url(../images/choosing-bg.jpg);
+  /* background-image: url(../images/choosing-bg.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #172238;
+  background-color: #0a1324;
   padding-bottom: 100px;
   padding: 0px 30px 100px 30px;
 }
@@ -1123,14 +1123,14 @@ section.video .left-content .main-button {
   margin: 0px auto 0;
 }
 
-section.sponsors {
+/* section.sponsors {
   background-image: url(../images/choosing-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #172238;
   padding-bottom: 100px;
   padding: 0px 30px 100px 30px;
-}
+} */
 section.sponsors img {
   width: 100%;
   height: 80%;
