@@ -24,17 +24,18 @@ body {
 }
 .middle img {
   width: 100%;
-  height: auto;
+  /* height: auto; */
+  height: 500px;
 }
 .middle .text {
   width: 100%;
-  margin-left: 20px;
 }
-.middle .image {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 2%;
+.middle .images {
+  /* display: flex;
+  justify-content: space-between; */
+  /* width: 100%;
+  padding: 2%; */
+  height: 500px;
 }
 .bottom {
   padding: 2% 2% 0% 2%;
@@ -63,7 +64,7 @@ body {
 }
 .last img {
   width: 100%;
-  height: 300px;
+  height: 500px;
 }
 
 @media screen and (max-width: 600px) {
